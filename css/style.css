@@ -16,10 +16,14 @@ ul, li {
     list-style-type: none;
 }
 
-a:hover{
+.header li:hover{
     color:#0065FC;
     border-top:1px solid #0065FC;
-    padding: 30px;  
+     
+}
+
+.header li {
+    padding-top: 15px
 }
 
 :root {
