@@ -13,6 +13,7 @@ header {
 
 ul, li {
     margin-right: 15px;
+    list-style-type: none;
 }
 
 :root {
