@@ -16,14 +16,19 @@ ul, li {
     list-style-type: none;
 }
 
+
 .header li:hover{
     color:#0065FC;
-    border-top:1px solid #0065FC;
-     
+    border-top:1px solid #0065FC;     
 }
 
 .header li {
     padding-top: 15px
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
 }
 
 :root {
