@@ -2,7 +2,7 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
-
+/****** header ***********/
 header, ul,nav { 
     display:flex ;
 }
@@ -12,8 +12,14 @@ header {
 }
 
 ul, li {
-    margin-right: 15px;
+    margin: 15px;
     list-style-type: none;
+}
+
+a:hover{
+    color:#0065FC;
+    border-top:1px solid #0065FC;
+    padding: 30px;  
 }
 
 :root {
