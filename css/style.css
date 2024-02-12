@@ -20,15 +20,15 @@ ul, li {
 
 .header li:hover{
     color:#0065FC;
-    border-top:1px solid #0065FC;     
+    border-top:2px solid #0065FC;     
 }
 
 .header li {
-    padding-top: 15px
+    padding-top: 10px
 }
 
 .logo img {
-    width: 100px;
+    width: 70px;
     height: auto;
 }
 
