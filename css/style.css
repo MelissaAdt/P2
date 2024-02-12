@@ -15,9 +15,8 @@ ul, li {
     margin-right: 0px;
     list-style-type: none;
     margin-top: 0;
-    margin-left: 60px;
+    margin-left: 50px
 }
-
 
 .header li:hover{
     color:#0065FC;
@@ -32,6 +31,13 @@ ul, li {
     width: 70px;
     height: auto;
     margin-top: 15px;
+}
+
+.fa-solid fa-location-dot {
+    font-size: 1em;
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius:10px;
 }
 
 :root {
