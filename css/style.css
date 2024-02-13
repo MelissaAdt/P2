@@ -37,7 +37,8 @@ ul, li {
     font-size: 1em;
     background-color: #F2F2F2;
     padding: 10px;
-    border-radius:10px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
 }
 .Marseille {
     padding: 10px;
