@@ -54,6 +54,15 @@ ul, li {
     padding:10px;
 }
 
+.barre-de-recherche {
+    background-color: #F2F2F2;
+    max-width: 327px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
