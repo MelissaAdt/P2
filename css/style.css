@@ -44,6 +44,16 @@ ul, li {
     padding: 10px;
     border:none ;
 }
+
+.Recherche {
+    color: white;
+    background-color:#0065FC; 
+    border:none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    padding:10px;
+}
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
