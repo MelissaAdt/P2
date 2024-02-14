@@ -97,7 +97,7 @@ form {
     padding-left: 8px;
     border-radius:25px;
     background-color: white;
-    margin-top:10px;
+    margin-top:15px;
   }
 
   button i.fa-solid {
@@ -105,6 +105,15 @@ form {
     font-size: 13px;
   }
 
+  .infos-logements {
+    font-size:12px;
+    margin:15px;
+  }
+
+  .fa-circle-info {
+    background-color:white ;
+    font-size:12px;
+  }
 
 
 
