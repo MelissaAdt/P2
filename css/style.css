@@ -88,6 +88,11 @@ form {
     font-weight: 600;
   }
 
+  .filtre, .filtre-economique, .filtre-familial, .filtre-romantique, .filtre-nos-pepites {
+    display: inline-block; 
+    margin-right: 10px;
+  }
+
 
 
 
