@@ -34,6 +34,8 @@ ul, li {
     margin-top: 15px;
 }
 
+/****** Partie Recherche ***********/
+
 .fa-solid {
     font-size: 1em;
     background-color: #F2F2F2;
@@ -63,6 +65,7 @@ ul, li {
 .fa-solid.fa-location-dot {
     color: black;
   }
+
  .fa-solid.fa-magnifying-glass { 
     background-color:#0065FC;
     color: white;
@@ -76,10 +79,39 @@ ul, li {
     cursor:pointer;
 }
 
-
 form {
     display:flex;
 }
+
+.filtre {
+    font-size: 13px; 
+    font-weight: 600;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 :root {
     --main-color: #0065FC;
@@ -252,4 +284,4 @@ a {
 @media only screen and (min-width: 601px) {
     .Recherche-mobile {
       display: none; 
-    }
+    } }
