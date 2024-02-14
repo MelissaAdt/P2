@@ -88,11 +88,7 @@ form {
     font-weight: 600;
   }
 
-  .filtre, 
-  .filtre-economique, 
-  .filtre-familial, 
-  .filtre-romantique, 
-  .filtre-nos-pepites {
+  .filtre, .tous-les-filtres {
     display: inline; 
     margin-right: 10px;
     font-size: 13px;
@@ -121,10 +117,7 @@ form {
     font-size:12px;
   }
 
-  button.filtre-economique:hover,
-  button.filtre-familial:hover,
-  button.filtre-romantique:hover,
-  button.filtre-nos-pepites:hover {
+  button.tous-les-filtres:hover {
     background-color: #bbd5fa;
   } 
 
