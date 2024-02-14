@@ -88,7 +88,11 @@ form {
     font-weight: 600;
   }
 
-  .filtre, .filtre-economique, .filtre-familial, .filtre-romantique, .filtre-nos-pepites {
+  .filtre, 
+  .filtre-economique, 
+  .filtre-familial, 
+  .filtre-romantique, 
+  .filtre-nos-pepites {
     display: inline; 
     margin-right: 10px;
     font-size: 13px;
@@ -96,18 +100,20 @@ form {
     padding-right: 8px;
     padding-left: 8px;
     border-radius:25px;
-    background-color: white;
+    background-color: transparent;
     margin-top:15px;
+    transition: background-color 0.1s;
   }
 
   button i.fa-solid {
-    background-color: white;
+    background-color: transparent;
     font-size: 13px;
   }
 
   .infos-logements {
     font-size:12px;
     margin:15px;
+    margin-left:0px;
   }
 
   .fa-circle-info {
@@ -115,8 +121,12 @@ form {
     font-size:12px;
   }
 
-
-
+  button.filtre-economique:hover,
+  button.filtre-familial:hover,
+  button.filtre-romantique:hover,
+  button.filtre-nos-pepites:hover {
+    background-color: #bbd5fa;
+  } 
 
 
 
