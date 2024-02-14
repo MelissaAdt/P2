@@ -59,6 +59,10 @@ ul, li {
     cursor:pointer;
     font-weight:600
 }
+
+.fa-solid.fa-location-dot {
+    color: black;
+  }
  .fa-solid.fa-magnifying-glass { 
     background-color:#0065FC;
     color: white;
@@ -71,6 +75,8 @@ ul, li {
     background: none;
     cursor:pointer;
 }
+
+
 form {
     display:flex;
 }
@@ -81,10 +87,6 @@ form {
     --filter-bg-color: #DEEBFF;
 }
 
-.fa-solid.fa-location-dot {
-    color: black;
-  }
-  
 
 .fa-solid {
     color: var(--main-color);
@@ -236,9 +238,15 @@ a {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .Recherche-mobile{
+        display:none;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .Recherche {
+        display:none;
+    }
 }
