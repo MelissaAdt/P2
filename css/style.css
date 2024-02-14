@@ -56,7 +56,19 @@ ul, li {
     cursor:pointer;
     font-weight:600
 }
+ .fa-solid.fa-magnifying-glass { 
+    background-color:#0065FC;
+    color: white;
+    border-radius:10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    
 
+}
+.Recherche-mobile {
+    border:none;
+    background: none;
+    
+}
 form {
     display:flex;
 }
@@ -227,4 +239,7 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    .Recherche {
+        display:none
+    }
 }
