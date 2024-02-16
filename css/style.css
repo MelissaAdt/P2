@@ -99,6 +99,7 @@ form {
     background-color: transparent;
     margin-top:15px;
     transition: background-color 0.1s;
+
   }
 
   button i.fa-solid {
@@ -122,21 +123,18 @@ form {
   } 
 
 
+.hb-cards .card {
+    width: 30%;
+    height:70px
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card img {
+    width:100%;
+    height: 100px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
 
 
