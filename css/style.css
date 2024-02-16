@@ -135,25 +135,26 @@ form {
 .hb-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-evenly;
+    gap:15px;
 }
 
 .hebergements .section-title {
     margin-bottom: 25px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .afficher-plus {
-    font-weight: bold;
+    font-weight: 700;
     cursor: pointer;
-  margin-left: 50px;
+  margin-left: 30px;
   padding-top: 10px;
 }
 
 .activités-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     
 }
 
@@ -177,6 +178,10 @@ form {
 .card-title {
     font-weight: 700;
     padding-left: 15px;
+}
+
+.section-activites {
+    padding-left: 55px;
 }
 
 
