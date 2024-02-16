@@ -1,13 +1,149 @@
 /****** General ***********/
 * {
+    
     font-family: 'Raleway', sans-serif;
 }
+/****** header ***********/
+header, ul,nav { 
+    display:flex ;
+}
+
+header {
+    justify-content:space-between;
+}
+
+ul, li {
+    margin-right: 0px;
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 50px
+}
+
+.header li:hover{
+    color:#0065FC;
+    border-top:2px solid #0065FC;     
+}
+
+.header li {
+    padding-top: 10px
+}
+
+.logo img {
+    width: 70px;
+    height: auto;
+    margin-top: 15px;
+}
+
+/****** Partie Recherche ***********/
+
+.fa-solid {
+    font-size: 1em;
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.Marseille {
+    padding: 10px;
+    padding-left: 20px;
+    border:none ;
+    margin-right: -60px;
+    font-weight: bold;
+}
+
+.Recherche {
+    color: white;
+    background-color:#0065FC; 
+    border:none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    padding:10px;
+    cursor:pointer;
+    font-weight:600
+}
+
+.fa-solid.fa-location-dot {
+    color: black;
+  }
+
+ .fa-solid.fa-magnifying-glass { 
+    background-color:#0065FC;
+    color: white;
+    border-radius:10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.Recherche-mobile {
+    border:none;
+    background: none;
+    cursor:pointer;
+}
+
+form {
+    display:flex;
+}
+
+.filtre {
+    font-size: 13px; 
+    font-weight: 600;
+  }
+
+  .filtre, .tous-les-filtres {
+    display: inline; 
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius:25px;
+    background-color: transparent;
+    margin-top:15px;
+    transition: background-color 0.1s;
+
+  }
+
+  button i.fa-solid {
+    background-color: transparent;
+    font-size: 13px;
+  }
+
+  .infos-logements {
+    font-size:12px;
+    margin:15px;
+    margin-left:0px;
+  }
+
+  .fa-circle-info {
+    background-color:white ;
+    font-size:12px;
+  }
+
+  button.tous-les-filtres:hover {
+    background-color: #bbd5fa;
+  } 
+
+
+.hb-cards .card {
+    width: 30%;
+    height:70px
+}
+
+.card img {
+    width:100%;
+    height: 100px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
 
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
+
 
 .fa-solid {
     color: var(--main-color);
@@ -159,9 +295,18 @@ a {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+   
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .Recherche {
+        display:none;
+    }
 }
+
+@media only screen and (min-width: 601px) {
+    .Recherche-mobile {
+      display: none; 
+    } }
