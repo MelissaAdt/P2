@@ -155,7 +155,7 @@ form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+    padding-bottom: 30px;
 }
 
 .card-activités img {
@@ -193,23 +193,36 @@ form {
 /****** Partie Footer ***********/
 
 
-.a-propos-liste {
-    padding-left: 0px;
-    display: flex;
-    flex-direction: column;
-   
-}
-
 .contenu-footer {
     margin: 0;
     background-color: #F2F2F2;
     display: flex;
-    align-items: flex-start;
+    
+}
+
+.a-propos-footer,
+.footer-hebergements,
+.assistance-footer {
+    width: 100%; 
+    padding: 30px; 
+    padding-top: 0px;
+}
+
+.liste-footer {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.liste-footer li {
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 10px; 
 
 }
 
-.a-propos-liste li {
-margin-left: 0;
+h4 {
+    padding-left: 50px;
 }
 
 :root {
