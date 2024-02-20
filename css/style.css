@@ -113,6 +113,9 @@ form {
 
   }
 
+  button.tous-les-filtres:hover {
+    background-color: #bbd5fa;
+  } 
 
 
   h2 {
@@ -134,9 +137,8 @@ form {
     margin: 10px;
     border: 1px #D9D9D9 solid;
     border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    background-color: transparent;
 }
-
-
 
 
   button i.fa-solid {
@@ -150,14 +152,6 @@ form {
     margin-left:0px;
   }
 
-  .fa-circle-info {
-    background-color:white ;
-    font-size:12px;
-  }
-
-  button.tous-les-filtres:hover {
-    background-color: #bbd5fa;
-  } 
 
 /****** Partie Hébérgements ***********/
 
@@ -223,6 +217,7 @@ form {
 
 .fa-xs.fa-solid.fa-star {
     background-color: transparent;
+  
 }
 
 
