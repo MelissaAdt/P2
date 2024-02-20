@@ -3,6 +3,13 @@
     
     font-family: 'Raleway', sans-serif;
 }
+
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
 /****** header ***********/
 header, ul,nav { 
     display:flex ;
@@ -15,17 +22,19 @@ header {
 ul, li {
     margin-right: 0px;
     list-style-type: none;
-    margin-top: 0;
+   
     margin-left: 50px
 }
 
 .header li:hover{
     color:#0065FC;
     border-top:2px solid #0065FC;     
+    transition: border-top 0.4s ease-out;
 }
 
 .header li {
-    padding-top: 10px
+    padding-top: 5px;
+    border-top: 3px white solid;
 }
 
 .logo img {
@@ -84,11 +93,12 @@ form {
 }
 
 .filtre {
-    font-size: 13px; 
-    font-weight: 600;
-  }
+    display: flex;
+    align-items: center;
+    margin:20px 0;
+}
 
-  .filtre, .tous-les-filtres {
+.tous-les-filtres {
     display: inline; 
     margin-right: 10px;
     font-size: 13px;
@@ -99,7 +109,28 @@ form {
     background-color: transparent;
     margin-top:15px;
     transition: background-color 0.1s;
+    border-color:#F2F2F2 ;
 
+  }
+
+/* infos */
+
+  .info{
+    display: flex;
+    align-items: center;
+}
+
+.info i{
+    padding: 6px 11px;
+    margin: 10px;
+    border: 1px #D9D9D9 solid;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+
+  h2 {
+
+    margin:10px;
   }
 
   button i.fa-solid {
@@ -193,6 +224,10 @@ form {
 /****** Partie Footer ***********/
 
 
+footer {
+    width: 100%;
+}
+
 .contenu-footer {
     margin: 0;
     background-color: #F2F2F2;
@@ -223,13 +258,9 @@ form {
 
 h4 {
     padding-left: 50px;
+    margin: 0;
 }
 
-:root {
-    --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
-}
 
 
 .fa-solid {
@@ -389,9 +420,23 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     .Recherche {
-        display:none;
+        display:none;   
     }
+
+    .hebergements-and-populaires {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 601px) {
     .Recherche-mobile {
