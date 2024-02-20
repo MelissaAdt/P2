@@ -122,7 +122,7 @@ form {
     background-color: #bbd5fa;
   } 
 
-
+/****** Partie Hébérgements ***********/
 
 .card img {
     width:100%;
@@ -175,7 +175,7 @@ form {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
-.card-title {
+.card-titre {
     font-weight: 700;
     padding-left: 15px;
 }
@@ -184,7 +184,33 @@ form {
     padding-left: 55px;
 }
 
+.fa-xs.fa-solid.fa-star {
+    background-color: transparent;
+}
 
+
+
+/****** Partie Footer ***********/
+
+
+.a-propos-liste {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contenu-footer {
+    margin: 0;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.a-propos-liste li {
+margin-left: 0;
+}
 
 :root {
     --main-color: #0065FC;
