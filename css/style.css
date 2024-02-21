@@ -353,6 +353,7 @@ a {
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    border-top-right-radius:0px;
 }
 
 .populaires-cards .card-content {
@@ -417,6 +418,7 @@ a {
         font-size: 13px;
     }
 
+    /* Mes modifications */
     .Recherche-mobile { 
         display: none;
     }
@@ -432,6 +434,13 @@ a {
 
     }
 
+    .hebergements .card {
+       width: 30%;
+    }
+
+    .filtre {
+        display: block;
+    }
 
 }
 
