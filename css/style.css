@@ -561,6 +561,16 @@ section.hebergements .card {
         margin-top: 0px;
     }
     
+    .infos-logements {
+        font-size: 11px;
+        display: flex;
+        align-items: center;
+    }
+
+    .info i {
+        font-size: 10px;
+        padding: 5px 9px; 
+    }
 
     section.populaires {
         padding: 0px 0px 0px 15px;
