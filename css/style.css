@@ -663,8 +663,6 @@ section.hebergements .card {
     nav {
         display: flex;
         flex-direction: column;
-        margin-left: -25px; 
-        margin-right: -22px;
     
     }
    
@@ -676,8 +674,13 @@ section.hebergements .card {
         display: block; 
     }
    
+    .partie-1 {
+        margin: 10px
+    }
+
     h1 {
         font-size:20px ;
+        margin-top: 10px
     }
 
 
@@ -742,7 +745,7 @@ section.hebergements .card {
     
     .populaires-cards .card {
         height: 150px;
-        width: 90%;
+        width: 93%;
         margin-top: 17px;
     }
 
@@ -785,7 +788,7 @@ section.hebergements .card {
 
 
     .hebergements .section-title {
-        margin: 30px 0 15px ;
+        margin: 30px 15px ;
     }
 
 
@@ -795,14 +798,17 @@ section.hebergements .card {
 
 
     section.hebergements .card {
-        width: 90%
+        width: 90%;
+        margin: 0px 15px;
     }
   
 .afficher-plus {
-    margin-left: 0px;
+    margin-left: 20px;
 }
 
-
+.section-activites {
+    margin-left: 20px;
+ }
     .card-activités img {
         width: 100%;
         height: 150px;
@@ -812,6 +818,7 @@ section.hebergements .card {
     .card-activités {
         width: 90%;
         height: 200px;
+        margin: 0px 20px;
     }
 
 
@@ -878,7 +885,7 @@ section.hebergements .card {
         }
 
         .card-activités {
-            width: 95%;
+            width: 90%;
             height: 200px;
         }
 
