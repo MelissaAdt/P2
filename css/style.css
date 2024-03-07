@@ -69,6 +69,7 @@ ul, li {
 
 form {
     display:flex;
+    margin-top:30px;
 }
 
 
@@ -81,7 +82,6 @@ form {
 }
 .Marseille {
     padding: 10px;
-    padding-right: 15px;
     border:none ;
     margin-right: -60px;
     font-weight: bold;
@@ -226,7 +226,7 @@ h3 {
 
 .hebergements .section-title {
     margin-bottom: 25px;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 
@@ -242,7 +242,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 
@@ -272,7 +272,8 @@ h3 {
 
 
 .section-activites {
-    padding-left: 55px;
+    padding-left: 40px;
+    margin-top:60px;
 }
 
 
@@ -495,16 +496,29 @@ section.hebergements .card {
 /* Medium devices (tablets, less/equal than 1024px) */
 
 @media (min-width: 769px) and (max-width: 1024px) {
+
+
+    .logo img {
+        width: 60px;
+    }
+
+    .filtre {
+        margin-top: 0;
+    }
+
     .hebergements-and-populaires {
      
         flex-direction: column;
     }
 
 
+    .hebergements .section-title {
+        margin-left:10px;
+    }
+
     .hebergements {
         width: 100%;
     }
-
 
     .populaires {
         width: 100%;
@@ -531,8 +545,13 @@ section.hebergements .card {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
-    }
+    }   
 
+
+    .section-activites {
+        padding-left:20px;
+        margin-top: 60px;
+    }
 
     /**** MES MODIFICATIONS ****/
 
@@ -660,7 +679,17 @@ section.hebergements .card {
         
 
     /* Partie RECHERCHE */    
+
+    form {
+        margin-left:15px;
+    }
    
+    .Marseille { 
+        margin-left:20px;
+    }
+
+    
+
     .partie-1 {
         margin: 10px
     }
